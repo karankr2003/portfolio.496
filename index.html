@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "CSS/font-awesome.css">
+    <link rel="stylesheet" href = "CSS/style.css">
+    <style>
+        .btn{
+            padding: 10px;
+        }
+    #cd-card{
+            border-radius:33px;
+            background: #96cf2c;
+        }
+    .text-2 {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, pink, rgb(199, 93, 18), #bc0ded);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 9s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(235, 20, 210, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  25%{
+    background-position: -100%;
+  }
+  50%{
+    background-position: 100%;
+  }
+  100% {
+    background-position: 500%;
+  }
+  
+}
+</style>
+</head>
+<body>
+<!--page loader start--->
+<div class="page-loader">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<!--page loader end--->
+
+<!--background circle start--->
+<div class="bg-circles">
+    <div class="circle-1"></div>
+    <div class="circle-2"></div>
+    <div class="circle-3"></div>
+    <div class="circle-4"></div>
+    <div class="circle-5"></div>
+</div>
+<!--background circle end--->
+
+<!---overlay start----->
+<div class="overlay">  
+</div>
+
+<!--overlay end--->
+
+<!---------main start--------->
+<div class="main">
+    <!---------Header start------------>
+    <header class="header">
+        <div class="container">
+            <div class="row flex-end">
+                <button type="button" class="nav-toggler">
+                    <span></span>
+                </button>
+                <nav class="nav">
+                    <div class="nav-inner">
+                    <ul>
+                        <li><a href ='#Home' class="nav-item link-item">Home</a></li>
+                        <li><a href ='#About' class="nav-item link-item">About</a></li>
+                        <li><a href ='#portfolio' class="nav-item link-item">Projects</a></li>
+                        <li><a href ='#contact' class="nav-item link-item">contact</a></li>  
+                    </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+     <!---------Header end------------>
+    
+     
+<!--------------------home section start---------->
+    <section class="home-section align-items-center" id="Home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="home-text">
+                    <p><h3>Hello, I'm</h3> </p>
+                    <h1 class="text-2 ">KARAN KUMAR</h1>
+                    <h2><A:blank>Enthusiastic Progammer</A:blank>, </h2>
+                    <h2>Web Devepoler</h2>
+
+                    <a href="#About" class="btn link-item">more about me</a>
+                    <a href="#portfolio" class="btn link-item">Projects</a>
+                </div>
+                <div class="home-img">
+                    <div class="img-box">
+                        <img src="img/profile.jpg" alt="profile-img1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!----home section end---->
+
+
+<!------about section------->
+<section class="about-selection sec-padding" id="About">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div calss="about-img">
+                <div clas="img-box">
+                    <img src="img/about-img11.png" alt="about img">
+                </div>
+            </div>
+            <div class="about-text">
+                <p>I am Karan Kumar, and I am currently pursuing Engineering at Alva's Institute of Engineering and Technology in the stream of 'Artificial Intelligence and Machine Learning'.
+                    I am highly enthusiastic and passionate about learning, advancements 
+                    in the field of AI and am excited to contribute to its continued growth. 
+                    I consider myself a logical thinker and take a structured approach to problem-solving, breaking down complex issues into manageable parts. 
+                    In my free time, I enjoy exploring new technologies and experimenting with programming projects to broaden my skills and knowledge.
+                </p>
+                <h3>Skills - Language</h3>
+                <div class ="Skills">
+                    <div class="Skill-item"><h4>HTML</h3></div>
+                    <div class="Skill-item"><h4>CSS</h4></div>
+                    <div class="Skill-item"><h4>javascript</h4></div>
+                    <div class="Skill-item"><h4>C</h4></div>
+                    <div class="Skill-item"><h4>Python</h4></div>
+                    <div class="Skill-item"><h4>Java</h4></div>
+                    <div class="Skill-item"><h4>C++</h4></div>
+                    <div class="Skill-item"><h4>Mysql</h4></div>
+            </div>
+            <h3>Additionals </h3>
+            <div class ="Skills">
+                <div class="Skill-item"><h4>Cloud Computing</h4></div>
+                <div class="Skill-item"><h4>Machine Learning</h4></div>
+                <div class="Skill-item"><h4>Data Analysis</h4></div>
+                <div class="Skill-item"><h4>Cybersecurity</h4></div>
+            </div>
+            <div class="about-tabs" >
+                <button type="button" class ="tab-item active" data-target = "Education">Education</button>
+              <!--<button type="button" class ="tab-item"  data-target = "Experience">Experience</button>--------------->
+            </div>
+
+            <!-----------eduction----------------->
+            <div class="tab-content active" id ="Education">
+                <div class="timeline">
+                    <div class = "timeline-item">
+                        <span class="date">2020-2024</span>
+                        <h4>Bachelor of Engineering - <span>Alva's Institute of Engineering & Technology</span></h4>
+                        <p></p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">2018-2020</span>
+                        <h4>Class 11th-12th - <span>VVIP School</span></h4>
+                        <p></p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">2008-2018</span>
+                        <h4>Class 10th - <span>DAV Public School</span></h4>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <!----------eduction end---->
+
+      <!-----      <div class="tab-content" id ="Experience">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="date">2013-2016</span>
+                        <h4>Web Devepoler - <span>The webshala</span></h4>
+                        <p>NNNKNKNNNNNMM,MKKSDVMKDS KSVKJNSKJVNKJSDNVNKDVNKJSDNV KJDNVJKSDNVJNDSKJVNKJWENWNJWVNSDKJ KJKVJWNVNWNVJWNNKJVNDSKJVNDSJ</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">2013-2016</span>
+                        <h4>Web Devepoler - <span>The webshala</span></h4>
+                        <p>NNNKNKNNNNNMM,MKKSDVMKDS KSVKJNSKJVNKJSDNVNKDVNKJSDNV KJDNVJKSDNVJNDSKJVNKJWENWNJWVNSDKJ KJKVJWNVNWNVJWNNKJVNDSKJVNDSJ</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">2013-2016</span>
+                        <h4>Web Devepoler - <span>The webshala</span></h4>
+                        <p>NNNKNKNNNNNMM,MKKSDVMKDS KSVKJNSKJVNKJSDNVNKDVNKJSDNV KJDNVJKSDNVJNDSKJVNKJWENWNJWVNSDKJ KJKVJWNVNWNVJWNNKJVNDSKJVNDSJ</p>
+                    </div>
+                </div>
+            </div>---->
+             <a href="RESUME.pdf" target = "_blank" class="btn">Download CV</a>
+            <a href="#contact" class="btn link-item">Contact Me</a>
+          <!--  </div>
+        </div>
+    </div>-->
+</section>
+
+<!-----portfolio section start  --->
+<section class="portfolio-section sec-padding" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>Projects & Certifications</h2>
+            </div>
+        </div>
+                    <!--------portfolio item start------->
+        <div class="row">
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="img/portfolio/1.jpg" alt="portfolio item thumb">
+                </div>
+                <h3 class="portfolio-item-title">Factory Management System</h3>
+            <button type ="button" class="btn view-project-btn">View Project</button>
+            <div class="portfolio-item-details">
+                <div class="description">
+                    <p>The Factory Management System (FMS) is designed to provide an efficient and effective system for managing factory operations and resources. It enables the user to track and manage the production process,
+                         including tracking materials, components, and orders, as well as managing personnel and equipment.
+                    </p>
+                </div>
+                <div class="general-info">
+                    <ul>
+                        <li>Created -<span> Feb 2023</span></li>
+                        <li>technology used- <span> HTML, CSS, JS</span></li>
+                        <li>Role- <span>Frontend</span></li>
+                   <!---  <li>View online - <span> <a href="#" target ="_blank"> www.doamin.com</a></span></li> --> 
+                    </ul>
+                </div>
+            </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="img/portfolio/2.jpg" alt="portfolio item thumb">
+                </div>
+                <h3 class="portfolio-item-title">Bloodbank Management System</h3>
+            <button type ="button" class="btn view-project-btn ">View more</button>
+            <div class="portfolio-item-details">
+                <div class="description">
+                    <p>The major goal of the Bloodbank Management System is to keep track of blood, donors, blood groups, 
+                        blood banks, and stock information.
+                    </p>
+                </div>
+                <div class="general-info">
+                    <ul>
+                        <li>Created -<span>March 2023</span></li>
+                        <li>technology used- <span> HTML,CSS,JS</span></li>
+                        <li>Role - <span>Frontend</span></li>
+                       <!----<li>View here - <span> <a href="#" target ="_blank"> www.doamin.com</a></span></li>-->
+                    </ul>
+                </div>
+            </div>
+            </div>
+            
+         <!---------portfolio item end------------->
+
+        </div>
+    </div>
+</section>
+<!---------------portfolio section end---------->
+
+<!------------contact section start-------------->
+<section class="contact-section sec-padding" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>Keep in touch</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="contact-form">
+                <form >
+                    <div class="row">
+                        <div class="input-group">
+                            <input type="text" placeholder="Name" class="input-control" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" placeholder="E-mail" class="input-control" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" placeholder="Subject" class="input-control" required>
+                        </div>
+                        <div class="input-group">
+                            <textarea placeholder="Message" class="input-control" required></textarea>
+                        </div>
+                        <div class="submit-btn">
+                            <button type="submit" class="btn">Send Message</button>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-info">
+                <div class="contact-info-item">
+                    <h3>E-mail</h3>
+                    <p>karankumar496kk@gmail.com</p>
+                </div>
+                <div class="contact-info-item">
+                    <h3>Phone</h3>
+                    <p>+91 9801630496</p>
+                </div>
+                <div class="contact-info-item">
+                    <h3>Follow me</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/karan-kumar-5a4b5b211/" target="_blank" ><i class ="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100089034818981"target="_blank" ><i class ="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/_abhi.karan__singh_/" target="_blank" ><i class ="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/KaranKu53570724" target="_blank" ><i class ="fab fa-twitter"></i></a>
+                       
+                        <a href="https://api.whatsapp.com/send?phone=9801630496 " target="_blank" ><i class ="fab fa-whatsapp"></i></a>
+                        <a href="https://t.me/Spirit986" target="_blank" ><i class ="fab fa-telegram"></i></a>
+                        <a href="https://github.com/karankr2003" target="_blank" ><i class ="fab fa-github"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------------contact section end------------->
+</div>
+                                                 <!-------------main end------------>
+
+
+<!-----portfolio items deatils popop start----->
+<div class="portfolio-popup">
+    <div class="pp-inner">
+        <div class="pp-content">
+            <div class="pp-header">
+                <button type="button" class="btn pp-close">X</button> 
+                <div class="pp-thumbnail">
+                    <img src="img/portfolio/3.jpg" alt="pp-thumbnail">
+                </div>
+                <h3>App landing page</h3>
+            </div>
+            <div class="pp-body">
+                <div class="description">
+                    <p>nnsnvsd jfiw gregerheh h eherhr hre rh erhrehht
+                        hthhrehehhheherhhrehehehthththhhehehrherh
+                    </p>
+                </div>
+                <div class="general-info">
+                    <ul>
+                        <li>Created -<span> 4dec 2020</span></li>
+                        <li>technology used- <span> HTML,CSS,JS</span></li>
+                        <li>Role- <span>Frontend</span></li>    
+                        <li>View here - <span> <a href="#" target ="_blank"> www.doamin.com</a></span></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------portfolio items deatils popop end---------------->
+
+<script src ="JS/script.js"></script>
+</body>
+</html>
